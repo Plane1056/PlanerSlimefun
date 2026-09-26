@@ -1,0 +1,38 @@
+field_cannon:
+  id: field_cannon
+  name: Field Cannon
+  source: Field_Cannon.nbt
+  size:
+    x: 8
+    y: 3
+    z: 3
+  total_blocks: 21
+  barrel_tip: [7, 1, 1]
+  trigger:
+    offset: [1, 1, 1]
+    material: DARK_OAK_FENCE_GATE
+  palette:
+    ".": AIR
+    "A": black_candle
+    "B": dark_oak_stairs
+    "C": polished_tuff
+    "D": polished_tuff_slab
+    "E": polished_tuff_stairs
+    "F": polished_tuff_wall
+  layers:
+     0:
+      rows:
+        - "...BB..."
+        - "DDDD...."
+        - "...BB..."
+     1:
+      rows:
+        - "...BB..."
+        - "..ECCFFF"
+        - "...BB..."
+     2:
+      rows:
+        - "........"
+        - "....A..."
+        - "........"
+  on_complete_event: FieldCannonDetectedEvent

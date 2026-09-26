@@ -1,0 +1,39 @@
+trench_cannon:
+  name: Trench Cannon
+  size:
+    x: 7
+    y: 4
+    z: 3
+  barrel_tip: [6, 3, 1]
+  trigger:
+    offset: [1, 1, 1]
+    material: TRIPWIRE_HOOK
+  palette:
+    ".": AIR
+    P: POLISHED_TUFF
+    S: POLISHED_TUFF_SLAB
+    H: POLISHED_TUFF_STAIRS
+    D: DARK_OAK_STAIRS
+    C: BLACK_CANDLE
+  layers:
+    0:
+      rows:
+        - "H.DD..."
+        - ".PS...."
+        - "H.DD..."
+    1:
+      rows:
+        - "..DD..."
+        - "..PPS.."
+        - "..DD..."
+    2:
+      rows:
+        - "......."
+        - "...CSSS"
+        - "......."
+    3:
+      rows:
+        - "......."
+        - "......S"
+        - "......."
+  on_complete_event: TrenchCannonDetectedEvent

@@ -1,0 +1,21 @@
+name: WWSF2
+author: WWSF
+description: WWSF artillery, fortifications, and geographic Oil Drills plugin
+main: com.wwsf.WWSFPlugin
+version: 2.2.7-oil-stability
+api-version: '1.21.8'
+load: POSTWORLD
+depend:
+  - Slimefun
+softdepend:
+  - Vault
+  - Movecraft
+  - HowitzerArtillery
+commands:
+  wwsf:
+    description: WWSF plugin commands
+    usage: /wwsf gas immunity
+permissions:
+  oildrills.drill.place:
+    description: Place the oil drill
+    default: true

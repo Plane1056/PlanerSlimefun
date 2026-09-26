@@ -1,0 +1,38 @@
+short_cannon:
+  id: short_cannon
+  name: Short Cannon
+  source: Light_Field_Gun.nbt
+  size:
+    x: 5
+    y: 3
+    z: 3
+  total_blocks: 12
+  barrel_tip: [4, 1, 1]
+  trigger:
+    offset: [0, 1, 1]
+    material: DARK_OAK_FENCE_GATE
+  palette:
+    ".": AIR
+    "A": black_candle
+    "B": dark_oak_trapdoor
+    "C": polished_tuff
+    "D": polished_tuff_slab
+    "E": polished_tuff_stairs
+    "F": polished_tuff_wall
+  layers:
+     0:
+      rows:
+        - "..B.."
+        - "EDD.."
+        - "..B.."
+     1:
+      rows:
+        - "....."
+        - ".ECFF"
+        - "....."
+     2:
+      rows:
+        - "....."
+        - "..A.."
+        - "....."
+  on_complete_event: ShortCannonDetectedEvent

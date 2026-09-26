@@ -1,0 +1,1482 @@
+{
+  "schema_version": "1.0",
+  "projection": {
+    "type": "equirectangular",
+    "central_meridian_degrees": 0.0,
+    "minecraft_north_axis": "negative_z",
+    "map_width_blocks": 49150.0,
+    "map_height_blocks": 24575.0,
+    "world_border_x": {
+      "left": -24575.0,
+      "right": 24575.0
+    },
+    "nominal_metres_per_block": 750.0,
+    "formula": {
+      "x": "longitude / 360 * map_width_blocks",
+      "z": "-latitude / 180 * map_height_blocks"
+    },
+    "server_reference_points": [
+      {
+        "name": "Island of Linosa",
+        "latitude": 35.86582,
+        "longitude": 12.87411,
+        "x": 1758,
+        "z": -4897
+      },
+      {
+        "name": "Redonda Island",
+        "latitude": 16.93781,
+        "longitude": -62.34559,
+        "x": -8513,
+        "z": -2313
+      },
+      {
+        "name": "Point Udall, Guam",
+        "latitude": 13.44756,
+        "longitude": 144.61819,
+        "x": 19747,
+        "z": -1835
+      },
+      {
+        "name": "Ny-Alesund",
+        "latitude": 78.9232,
+        "longitude": 11.953,
+        "x": 1621,
+        "z": -10776
+      },
+      {
+        "name": "Khan’d hera",
+        "x": 9988,
+        "z": 83,
+        "latitude": null,
+        "longitude": null,
+        "note": "Supplied name/coordinate retained; add an unambiguous latitude/longitude to validate it."
+      }
+    ]
+  },
+  "geometry_note": "Symbolic inspection footprints; not geological boundaries.",
+  "fields": [
+    {
+      "id": "AG001PET",
+      "name": "Ain Zeft",
+      "world_location": "Tellian Uplift, Algeria",
+      "latitude": 36.5,
+      "longitude": 2.0,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 273,
+        "z": -4983
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 212.4,
+        "radius_z_blocks": 212.4
+      },
+      "oil_amount_score": 30
+    },
+    {
+      "id": "AR009PET",
+      "name": "Comodoro Rivadavia",
+      "world_location": "San Jorge Basin, Argentina",
+      "latitude": -45.86,
+      "longitude": -67.48,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -9213,
+        "z": 6261
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 392.3,
+        "radius_z_blocks": 226.7
+      },
+      "oil_amount_score": 72
+    },
+    {
+      "id": "AJ004PET",
+      "name": "Bibi-Heybat–Baku",
+      "world_location": "South Caspian Basin, Azerbaijan",
+      "latitude": 40.37,
+      "longitude": 49.84,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 6805,
+        "z": -5512
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 445.5,
+        "radius_z_blocks": 257.4
+      },
+      "oil_amount_score": 100
+    },
+    {
+      "id": "BM002PET",
+      "name": "Yenangyat",
+      "world_location": "Irrawaddy, Burma",
+      "latitude": 20.46,
+      "longitude": 94.88,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 12954,
+        "z": -2793
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 383.9,
+        "radius_z_blocks": 221.8
+      },
+      "oil_amount_score": 68
+    },
+    {
+      "id": "BM001PET",
+      "name": "North Burma fields",
+      "world_location": "North Burma, Burma",
+      "latitude": 24.0,
+      "longitude": 96.0,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 13107,
+        "z": -3277
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 354.8,
+        "radius_z_blocks": 205.0
+      },
+      "oil_amount_score": 55
+    },
+    {
+      "id": "CA016PET",
+      "name": "Turner Valley",
+      "world_location": "Rocky Mountain Deformed Belt, Canada",
+      "latitude": 50.75,
+      "longitude": -114.3,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -15605,
+        "z": -6929
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 383.9,
+        "radius_z_blocks": 221.8
+      },
+      "oil_amount_score": 68
+    },
+    {
+      "id": "CA012PET",
+      "name": "Peace River",
+      "world_location": "Alberta Basin, Canada",
+      "latitude": 56.25,
+      "longitude": -117.3,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -16015,
+        "z": -7680
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 354.8,
+        "radius_z_blocks": 205.0
+      },
+      "oil_amount_score": 55
+    },
+    {
+      "id": "CA019PET",
+      "name": "Oil Springs–Enniskillen",
+      "world_location": "Algonquin Arch-Michigan Basin, Canada",
+      "latitude": 42.72,
+      "longitude": -82.0,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -11195,
+        "z": -5832
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 244.4,
+        "radius_z_blocks": 244.4
+      },
+      "oil_amount_score": 45
+    },
+    {
+      "id": "CH047PET",
+      "name": "Yanchang",
+      "world_location": "Ordos Basin, China",
+      "latitude": 37.1,
+      "longitude": 109.5,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 14950,
+        "z": -5065
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 354.8,
+        "radius_z_blocks": 205.0
+      },
+      "oil_amount_score": 55
+    },
+    {
+      "id": "CH002PET",
+      "name": "Dushanzi",
+      "world_location": "Junggar Basin, China",
+      "latitude": 44.3,
+      "longitude": 84.9,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 11591,
+        "z": -6048
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 212.4,
+        "radius_z_blocks": 212.4
+      },
+      "oil_amount_score": 30
+    },
+    {
+      "id": "CO007PET",
+      "name": "Infantas",
+      "world_location": "Middle Magdelena, Colombia",
+      "latitude": 7.1,
+      "longitude": -73.9,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -10089,
+        "z": -969
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 354.8,
+        "radius_z_blocks": 205.0
+      },
+      "oil_amount_score": 55
+    },
+    {
+      "id": "CU002PET",
+      "name": "Motembo",
+      "world_location": "Greater Antilles Deformed Bel, Cuba",
+      "latitude": 22.95,
+      "longitude": -81.1,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -11072,
+        "z": -3133
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 244.4,
+        "radius_z_blocks": 244.4
+      },
+      "oil_amount_score": 45
+    },
+    {
+      "id": "CU001PET",
+      "name": "Bacuranao",
+      "world_location": "Greater Antilles Deformed Bel, Cuba",
+      "latitude": 23.12,
+      "longitude": -82.23,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -11227,
+        "z": -3157
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 200.0,
+        "radius_z_blocks": 200.0
+      },
+      "oil_amount_score": 25
+    },
+    {
+      "id": "EZ002PET",
+      "name": "Bohemia 1914 discovery",
+      "world_location": "Bohemia, Czech Republic",
+      "latitude": 48.85,
+      "longitude": 17.13,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 2339,
+        "z": -6669
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 192.0,
+        "radius_z_blocks": 192.0
+      },
+      "oil_amount_score": 22
+    },
+    {
+      "id": "EC001PET",
+      "name": "Ancón–Cautivo",
+      "world_location": "Progreso Basin, Ecuador",
+      "latitude": -2.2,
+      "longitude": -80.8,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -11031,
+        "z": 300
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 361.8,
+        "radius_z_blocks": 209.0
+      },
+      "oil_amount_score": 58
+    },
+    {
+      "id": "EG008PET",
+      "name": "Hurghada",
+      "world_location": "Red Sea Basin, Egypt",
+      "latitude": 27.25,
+      "longitude": 33.8,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 4615,
+        "z": -3720
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 244.4,
+        "radius_z_blocks": 244.4
+      },
+      "oil_amount_score": 45
+    },
+    {
+      "id": "FR004PET",
+      "name": "Pechelbronn",
+      "world_location": "Rhine Graben, France",
+      "latitude": 48.9,
+      "longitude": 7.8,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 1065,
+        "z": -6676
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 253.8,
+        "radius_z_blocks": 253.8
+      },
+      "oil_amount_score": 50
+    },
+    {
+      "id": "GM001PET",
+      "name": "Wietze",
+      "world_location": "Northwest German Basin, Germany",
+      "latitude": 52.65,
+      "longitude": 9.83,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 1342,
+        "z": -7188
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 366.4,
+        "radius_z_blocks": 211.7
+      },
+      "oil_amount_score": 60
+    },
+    {
+      "id": "IN002PET",
+      "name": "Digboi",
+      "world_location": "Assam, India",
+      "latitude": 27.39,
+      "longitude": 95.62,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 13055,
+        "z": -3739
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 392.3,
+        "radius_z_blocks": 226.7
+      },
+      "oil_amount_score": 72
+    },
+    {
+      "id": "ID008PET",
+      "name": "North Sumatra fields",
+      "world_location": "North Sumatra Basin, Indonesia",
+      "latitude": 4.2,
+      "longitude": 98.2,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 13407,
+        "z": -573
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 398.5,
+        "radius_z_blocks": 230.2
+      },
+      "oil_amount_score": 75
+    },
+    {
+      "id": "ID011PET",
+      "name": "South Sumatra fields",
+      "world_location": "South Sumatra Basin, Indonesia",
+      "latitude": -3.4,
+      "longitude": 104.0,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 14199,
+        "z": 464
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 388.2,
+        "radius_z_blocks": 224.3
+      },
+      "oil_amount_score": 70
+    },
+    {
+      "id": "ID014PET",
+      "name": "East Java fields",
+      "world_location": "East Java Basin, Indonesia",
+      "latitude": -7.2,
+      "longitude": 112.7,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 15387,
+        "z": 983
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 377.5,
+        "radius_z_blocks": 218.1
+      },
+      "oil_amount_score": 65
+    },
+    {
+      "id": "ID015PET",
+      "name": "Tarakan oil fields",
+      "world_location": "Pamusian Tarakan Basin, Indonesia",
+      "latitude": 3.3,
+      "longitude": 117.6,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 16056,
+        "z": -451
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 366.4,
+        "radius_z_blocks": 211.7
+      },
+      "oil_amount_score": 60
+    },
+    {
+      "id": "ID018PET",
+      "name": "Sanga-Sanga",
+      "world_location": "Kutei Basin, Indonesia",
+      "latitude": -0.55,
+      "longitude": 117.2,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 16001,
+        "z": 75
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 354.8,
+        "radius_z_blocks": 205.0
+      },
+      "oil_amount_score": 55
+    },
+    {
+      "id": "ID027PET",
+      "name": "Bula",
+      "world_location": "Banda Arc, Indonesia",
+      "latitude": -3.1,
+      "longitude": 130.5,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 17817,
+        "z": 423
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 223.8,
+        "radius_z_blocks": 223.8
+      },
+      "oil_amount_score": 35
+    },
+    {
+      "id": "IR008PET",
+      "name": "Masjed Soleyman",
+      "world_location": "Zagros Fold Belt, Iran",
+      "latitude": 31.94,
+      "longitude": 49.3,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 6731,
+        "z": -4361
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 408.4,
+        "radius_z_blocks": 236.0
+      },
+      "oil_amount_score": 80
+    },
+    {
+      "id": "IZ001PET",
+      "name": "Naft Khaneh",
+      "world_location": "Zagros Fold Belt, Iraq",
+      "latitude": 34.5,
+      "longitude": 45.5,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 6212,
+        "z": -4710
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 361.8,
+        "radius_z_blocks": 209.0
+      },
+      "oil_amount_score": 58
+    },
+    {
+      "id": "IZ002PET",
+      "name": "Chia Surkh",
+      "world_location": "Zagros Fold Belt, Iraq",
+      "latitude": 34.7,
+      "longitude": 45.8,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 6253,
+        "z": -4738
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 200.0,
+        "radius_z_blocks": 200.0
+      },
+      "oil_amount_score": 25
+    },
+    {
+      "id": "IT004PET",
+      "name": "Val d’Agri",
+      "world_location": "Alps, Italy",
+      "latitude": 40.3,
+      "longitude": 15.9,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 2171,
+        "z": -5502
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 200.0,
+        "radius_z_blocks": 200.0
+      },
+      "oil_amount_score": 25
+    },
+    {
+      "id": "JA011PET",
+      "name": "Nishiyama",
+      "world_location": "Niigata Basin, Japan",
+      "latitude": 37.45,
+      "longitude": 138.8,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 18950,
+        "z": -5113
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 366.4,
+        "radius_z_blocks": 211.7
+      },
+      "oil_amount_score": 60
+    },
+    {
+      "id": "JA009PET",
+      "name": "Ishikari",
+      "world_location": "Ishikari Hidaka Basin, Japan",
+      "latitude": 43.1,
+      "longitude": 141.6,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 19332,
+        "z": -5884
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 244.4,
+        "radius_z_blocks": 244.4
+      },
+      "oil_amount_score": 45
+    },
+    {
+      "id": "KZ013PET",
+      "name": "Dossor",
+      "world_location": "North Caspian Basin, Kazakhstan",
+      "latitude": 47.53,
+      "longitude": 52.98,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 7233,
+        "z": -6489
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 370.9,
+        "radius_z_blocks": 214.3
+      },
+      "oil_amount_score": 62
+    },
+    {
+      "id": "KG003PET",
+      "name": "Maylisay",
+      "world_location": "Fergana Basin, Kyrgyzstan",
+      "latitude": 41.3,
+      "longitude": 72.5,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 9898,
+        "z": -5639
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 212.4,
+        "radius_z_blocks": 212.4
+      },
+      "oil_amount_score": 30
+    },
+    {
+      "id": "MY002PET",
+      "name": "Miri",
+      "world_location": "Baram Delta/Brunei-Sabah Basi, Malaysia",
+      "latitude": 4.4,
+      "longitude": 114.0,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 15564,
+        "z": -601
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 392.3,
+        "radius_z_blocks": 226.7
+      },
+      "oil_amount_score": 72
+    },
+    {
+      "id": "MX004PET",
+      "name": "Pánuco–Ébano",
+      "world_location": "Tampico-Misantla Basin, Mexico",
+      "latitude": 22.2,
+      "longitude": -98.2,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -13407,
+        "z": -3031
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 431.2,
+        "radius_z_blocks": 249.1
+      },
+      "oil_amount_score": 92
+    },
+    {
+      "id": "MX012PET",
+      "name": "Saline–Comalcalco early fields",
+      "world_location": "Saline-Comalcalco Basin, Mexico",
+      "latitude": 18.1,
+      "longitude": -93.2,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -12724,
+        "z": -2471
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 377.5,
+        "radius_z_blocks": 218.1
+      },
+      "oil_amount_score": 65
+    },
+    {
+      "id": "NZ002PET",
+      "name": "Moturoa",
+      "world_location": "Taranaki Basin, New Zealand",
+      "latitude": -39.06,
+      "longitude": 174.07,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 23765,
+        "z": 5333
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 244.4,
+        "radius_z_blocks": 244.4
+      },
+      "oil_amount_score": 45
+    },
+    {
+      "id": "NZ001PET",
+      "name": "Kotuku oil seeps",
+      "world_location": "New Zealand Orogenic Belt, New Zealand",
+      "latitude": -42.7,
+      "longitude": 171.5,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 23415,
+        "z": 5830
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 152.2,
+        "radius_z_blocks": 152.2
+      },
+      "oil_amount_score": 10
+    },
+    {
+      "id": "PK001PET",
+      "name": "Khaur",
+      "world_location": "Kohat-Potwar, Pakistan",
+      "latitude": 33.13,
+      "longitude": 72.35,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 9878,
+        "z": -4523
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 223.8,
+        "radius_z_blocks": 223.8
+      },
+      "oil_amount_score": 35
+    },
+    {
+      "id": "PE005PET",
+      "name": "Talara",
+      "world_location": "Talara Basin, Peru",
+      "latitude": -4.58,
+      "longitude": -81.27,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -11096,
+        "z": 625
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 412.3,
+        "radius_z_blocks": 238.2
+      },
+      "oil_amount_score": 82
+    },
+    {
+      "id": "RP005PET",
+      "name": "Toledo",
+      "world_location": "Visayan, Philippines",
+      "latitude": 10.38,
+      "longitude": 123.64,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 16880,
+        "z": -1417
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 186.3,
+        "radius_z_blocks": 186.3
+      },
+      "oil_amount_score": 20
+    },
+    {
+      "id": "PL008PET",
+      "name": "Wankowa",
+      "world_location": "North Carpathian Basin, Poland",
+      "latitude": 49.55,
+      "longitude": 22.0,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 3004,
+        "z": -6765
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 250.1,
+        "radius_z_blocks": 250.1
+      },
+      "oil_amount_score": 48
+    },
+    {
+      "id": "RO004PET",
+      "name": "Romanian Carpathian fields",
+      "world_location": "Carpathian-Balkanian Basin, Romania",
+      "latitude": 45.2,
+      "longitude": 25.5,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 3481,
+        "z": -6171
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 412.3,
+        "radius_z_blocks": 238.2
+      },
+      "oil_amount_score": 82
+    },
+    {
+      "id": "RS019PET",
+      "name": "Starogroznyy–Berekey",
+      "world_location": "Middle Caspian Basin, Russia",
+      "latitude": 43.32,
+      "longitude": 45.68,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 6237,
+        "z": -5914
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 388.2,
+        "radius_z_blocks": 224.3
+      },
+      "oil_amount_score": 70
+    },
+    {
+      "id": "RS017PET",
+      "name": "Maykop",
+      "world_location": "Azov-Kuban Basin, Russia",
+      "latitude": 44.61,
+      "longitude": 40.11,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 5476,
+        "z": -6091
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 366.4,
+        "radius_z_blocks": 211.7
+      },
+      "oil_amount_score": 60
+    },
+    {
+      "id": "RS013PET",
+      "name": "North Caspian western area",
+      "world_location": "North Caspian Basin, Russia",
+      "latitude": 47.5,
+      "longitude": 48.0,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 6553,
+        "z": -6485
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 200.0,
+        "radius_z_blocks": 200.0
+      },
+      "oil_amount_score": 25
+    },
+    {
+      "id": "RS012PET",
+      "name": "North Caspian central area",
+      "world_location": "North Caspian Basin, Russia",
+      "latitude": 47.0,
+      "longitude": 50.0,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 6826,
+        "z": -6417
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 186.3,
+        "radius_z_blocks": 186.3
+      },
+      "oil_amount_score": 20
+    },
+    {
+      "id": "RS014PET",
+      "name": "North Caspian northern area",
+      "world_location": "North Caspian Basin, Russia",
+      "latitude": 48.5,
+      "longitude": 50.0,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 6826,
+        "z": -6622
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 186.3,
+        "radius_z_blocks": 186.3
+      },
+      "oil_amount_score": 20
+    },
+    {
+      "id": "TI001PET",
+      "name": "Kim",
+      "world_location": "Fergana Basin, Tajikistan",
+      "latitude": 40.5,
+      "longitude": 69.6,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 9502,
+        "z": -5529
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 207.6,
+        "radius_z_blocks": 207.6
+      },
+      "oil_amount_score": 28
+    },
+    {
+      "id": "TD001PET",
+      "name": "Trinidad oil fields",
+      "world_location": "East Venezuela Basin, Trinidad and Tobago",
+      "latitude": 10.5,
+      "longitude": -61.3,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -8369,
+        "z": -1434
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 392.3,
+        "radius_z_blocks": 226.7
+      },
+      "oil_amount_score": 72
+    },
+    {
+      "id": "TX001PET",
+      "name": "Cheleken",
+      "world_location": "South Caspian Basin, Turkmenistan",
+      "latitude": 39.45,
+      "longitude": 53.0,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 7236,
+        "z": -5386
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 377.5,
+        "radius_z_blocks": 218.1
+      },
+      "oil_amount_score": 65
+    },
+    {
+      "id": "UP001PET",
+      "name": "Boryslaw–Bitkow",
+      "world_location": "North Carpathian Basin, Ukraine",
+      "latitude": 49.29,
+      "longitude": 23.42,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": 3197,
+        "z": -6729
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 404.5,
+        "radius_z_blocks": 233.7
+      },
+      "oil_amount_score": 78
+    },
+    {
+      "id": "US072PET",
+      "name": "Spindletop",
+      "world_location": "Western Gulf, United States",
+      "latitude": 29.95,
+      "longitude": -94.05,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -12840,
+        "z": -4089
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 436.6,
+        "radius_z_blocks": 252.3
+      },
+      "oil_amount_score": 95
+    },
+    {
+      "id": "US054PET",
+      "name": "Iola–Cushing",
+      "world_location": "Cherokee Platform, United States",
+      "latitude": 35.98,
+      "longitude": -96.77,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -13212,
+        "z": -4912
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 423.8,
+        "radius_z_blocks": 244.8
+      },
+      "oil_amount_score": 88
+    },
+    {
+      "id": "US078PET",
+      "name": "Drake–Bradford",
+      "world_location": "Appalachian Basin, United States",
+      "latitude": 41.95,
+      "longitude": -78.65,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -10738,
+        "z": -5727
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 412.3,
+        "radius_z_blocks": 238.2
+      },
+      "oil_amount_score": 82
+    },
+    {
+      "id": "US014PET",
+      "name": "Coalinga",
+      "world_location": "San Joaquin Basin, United States",
+      "latitude": 36.14,
+      "longitude": -120.36,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -16432,
+        "z": -4934
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 408.4,
+        "radius_z_blocks": 236.0
+      },
+      "oil_amount_score": 80
+    },
+    {
+      "id": "US017PET",
+      "name": "Brea–Olinda",
+      "world_location": "Los Angeles Basin, United States",
+      "latitude": 33.92,
+      "longitude": -117.9,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -16097,
+        "z": -4631
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 392.3,
+        "radius_z_blocks": 226.7
+      },
+      "oil_amount_score": 72
+    },
+    {
+      "id": "US057PET",
+      "name": "Sho–Vel–Tum",
+      "world_location": "Southern Oklahoma, United States",
+      "latitude": 34.2,
+      "longitude": -97.5,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -13311,
+        "z": -4669
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 388.2,
+        "radius_z_blocks": 224.3
+      },
+      "oil_amount_score": 70
+    },
+    {
+      "id": "US081PET",
+      "name": "Lima–Indiana",
+      "world_location": "Cincinnati Arch, United States",
+      "latitude": 40.74,
+      "longitude": -84.1,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -11482,
+        "z": -5562
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 383.9,
+        "radius_z_blocks": 221.8
+      },
+      "oil_amount_score": 68
+    },
+    {
+      "id": "US088PET",
+      "name": "La Salle Anticlinal Belt",
+      "world_location": "Illinois Basin, United States",
+      "latitude": 41.3,
+      "longitude": -89.1,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -12165,
+        "z": -5639
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 377.5,
+        "radius_z_blocks": 218.1
+      },
+      "oil_amount_score": 65
+    },
+    {
+      "id": "US028PET",
+      "name": "Salt Creek",
+      "world_location": "Powder River Basin, United States",
+      "latitude": 43.4,
+      "longitude": -106.3,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -14513,
+        "z": -5925
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 377.5,
+        "radius_z_blocks": 218.1
+      },
+      "oil_amount_score": 65
+    },
+    {
+      "id": "US029PET",
+      "name": "Garland–Greybull–Elk Basin",
+      "world_location": "Big Horn Basin, United States",
+      "latitude": 44.8,
+      "longitude": -108.5,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -14813,
+        "z": -6116
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 370.9,
+        "radius_z_blocks": 214.3
+      },
+      "oil_amount_score": 62
+    },
+    {
+      "id": "US048PET",
+      "name": "Anadarko early fields",
+      "world_location": "Andarko Basin, United States",
+      "latitude": 35.2,
+      "longitude": -98.4,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -13434,
+        "z": -4806
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 366.4,
+        "radius_z_blocks": 211.7
+      },
+      "oil_amount_score": 60
+    },
+    {
+      "id": "US016PET",
+      "name": "Santa Paula",
+      "world_location": "Ventura Basin, United States",
+      "latitude": 34.35,
+      "longitude": -119.06,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -16255,
+        "z": -4690
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 366.4,
+        "radius_z_blocks": 211.7
+      },
+      "oil_amount_score": 60
+    },
+    {
+      "id": "US031PET",
+      "name": "Lost Soldier–Rock River",
+      "world_location": "Southwestern Wyoming, United States",
+      "latitude": 42.3,
+      "longitude": -107.0,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -14608,
+        "z": -5775
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 361.8,
+        "radius_z_blocks": 209.0
+      },
+      "oil_amount_score": 58
+    },
+    {
+      "id": "US015PET",
+      "name": "Orcutt",
+      "world_location": "Santa Maria Basin, United States",
+      "latitude": 34.87,
+      "longitude": -120.45,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -16445,
+        "z": -4761
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 354.8,
+        "radius_z_blocks": 205.0
+      },
+      "oil_amount_score": 55
+    },
+    {
+      "id": "US030PET",
+      "name": "Dallas Dome",
+      "world_location": "Wind River Basin, United States",
+      "latitude": 43.2,
+      "longitude": -108.8,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -14854,
+        "z": -5898
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 257.5,
+        "radius_z_blocks": 257.5
+      },
+      "oil_amount_score": 52
+    },
+    {
+      "id": "US051PET",
+      "name": "Dexter",
+      "world_location": "Nemaha Uplift, United States",
+      "latitude": 37.18,
+      "longitude": -96.72,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -13205,
+        "z": -5076
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 244.4,
+        "radius_z_blocks": 244.4
+      },
+      "oil_amount_score": 45
+    },
+    {
+      "id": "US052PET",
+      "name": "Paola–Rantoul",
+      "world_location": "Forest City Basin, United States",
+      "latitude": 38.57,
+      "longitude": -94.88,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -12954,
+        "z": -5266
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 238.5,
+        "radius_z_blocks": 238.5
+      },
+      "oil_amount_score": 42
+    },
+    {
+      "id": "US059PET",
+      "name": "Bend Arch–Fort Worth Central",
+      "world_location": "Bend Arch-Fort Worth Basin, United States",
+      "latitude": 32.75,
+      "longitude": -97.33,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -13288,
+        "z": -4471
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 234.4,
+        "radius_z_blocks": 234.4
+      },
+      "oil_amount_score": 40
+    },
+    {
+      "id": "US061PET",
+      "name": "Bend Arch–Fort Worth East",
+      "world_location": "Bend Arch-Fort Worth Basin, United States",
+      "latitude": 32.8,
+      "longitude": -96.7,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -13202,
+        "z": -4478
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 234.4,
+        "radius_z_blocks": 234.4
+      },
+      "oil_amount_score": 40
+    },
+    {
+      "id": "US060PET",
+      "name": "Bend Arch–Fort Worth West",
+      "world_location": "Bend Arch-Fort Worth Basin, United States",
+      "latitude": 32.7,
+      "longitude": -98.0,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -13380,
+        "z": -4464
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 234.4,
+        "radius_z_blocks": 234.4
+      },
+      "oil_amount_score": 40
+    },
+    {
+      "id": "US084PET",
+      "name": "Cincinnati Arch southern fields",
+      "world_location": "Cincinnati Arch, United States",
+      "latitude": 38.8,
+      "longitude": -84.5,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -11537,
+        "z": -5297
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 234.4,
+        "radius_z_blocks": 234.4
+      },
+      "oil_amount_score": 40
+    },
+    {
+      "id": "US075PET",
+      "name": "Port Huron",
+      "world_location": "Michigan Basin, United States",
+      "latitude": 42.97,
+      "longitude": -82.42,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -11253,
+        "z": -5867
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 230.3,
+        "radius_z_blocks": 230.3
+      },
+      "oil_amount_score": 38
+    },
+    {
+      "id": "US038PET",
+      "name": "White River",
+      "world_location": "Uinta-Piceance Basins, United States",
+      "latitude": 39.9,
+      "longitude": -109.0,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -14882,
+        "z": -5447
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 230.3,
+        "radius_z_blocks": 230.3
+      },
+      "oil_amount_score": 38
+    },
+    {
+      "id": "US041PET",
+      "name": "Seven Lakes",
+      "world_location": "San Juan Basin, United States",
+      "latitude": 35.5,
+      "longitude": -108.7,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -14841,
+        "z": -4847
+      },
+      "geometry_type": "circle",
+      "size": {
+        "radius_x_blocks": 223.8,
+        "radius_z_blocks": 223.8
+      },
+      "oil_amount_score": 35
+    },
+    {
+      "id": "VE002PET",
+      "name": "Mene Grande",
+      "world_location": "Maracaibo Basin, Venezuela",
+      "latitude": 9.82,
+      "longitude": -70.93,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -9684,
+        "z": -1341
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 427.5,
+        "radius_z_blocks": 247.0
+      },
+      "oil_amount_score": 90
+    },
+    {
+      "id": "VE001PET",
+      "name": "Cabimas",
+      "world_location": "Maracaibo Basin, Venezuela",
+      "latitude": 10.39,
+      "longitude": -71.45,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -9755,
+        "z": -1419
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 420.0,
+        "radius_z_blocks": 242.7
+      },
+      "oil_amount_score": 86
+    },
+    {
+      "id": "VE003PET",
+      "name": "Las Cruces–Los Manueles",
+      "world_location": "Maracaibo Basin, Venezuela",
+      "latitude": 10.05,
+      "longitude": -71.15,
+      "coordinate_source": "curated_approximation",
+      "minecraft": {
+        "x": -9714,
+        "z": -1372
+      },
+      "geometry_type": "ellipse",
+      "size": {
+        "radius_x_blocks": 354.8,
+        "radius_z_blocks": 205.0
+      },
+      "oil_amount_score": 55
+    }
+  ]
+}

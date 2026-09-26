@@ -1,0 +1,131 @@
+artillery:
+  base-flight-time: 3.0
+  speed-constant: 50.0
+  min-flight-time: 5.0
+  max-flight-time: 25.0
+  max-range: 200.0
+  cooldown-seconds: 10.0
+
+# Each emplacement accepts only its own ammunition family. Payload lists stay
+# configurable so balance changes do not require rebuilding the plugin.
+weapons:
+  trench_cannon:
+    allowed-shells: [STANDARD]
+  short_cannon:
+    allowed-shells: [SHRAPNEL, INCENDIARY]
+  field_cannon:
+    allowed-shells: [STANDARD, ARMOR_PIERCING, CLUSTER, SMOKE]
+  maxim_machine_gun:
+    allowed-shells: [STANDARD]
+
+# Gas Alarm Bells keep a small per-world index rather than scanning every
+# loaded Slimefun block. Two seconds still detects persistent gas clouds quickly
+# while avoiding the former twice-per-second full-storage scan.
+fortifications:
+  gas-alarm:
+    howitzer-scan-interval-ticks: 40
+    index-refresh-interval-ticks: 6000
+
+# Chemical weapons. Design decision: the chlorine grenade and mustard
+# bomb are one Gas Bomb, and the craftable gas shell is disabled.
+gas:
+  enabled: true
+  # The single merged Gas Bomb. When HowitzerArtillery is installed the bomb
+  # seeds a real concentration-cell cloud of this many unique cells, so it
+  # flows, decays, corrodes terrain, respects gas masks and can be vacuumed
+  # exactly like an artillery gas shell. An artillery gas shell uses 1064.
+  bomb:
+    cells: 600
+    # Everything below only drives the standalone fallback cloud used when
+    # HowitzerArtillery is not installed.
+    duration-ticks: 200
+    tick-interval: 4
+    max-radius: 8.0
+    spread-speed: 0.25
+    wither-duration: 140
+    wither-amplifier: 2
+    nausea-duration: 100
+    nausea-amplifier: 0
+    contact-damage: 2.0
+    tick-damage: 0.0
+
+shells:
+  STANDARD:
+    explosion-power: 0.75
+    damage: 5.0
+    radius: 2.0
+    block-break-radius: 1.25
+    falloff: 1.0
+  SHRAPNEL:
+    explosion-power: 0.4
+    damage: 4.0
+    radius: 1.75
+    block-break-radius: 0.75
+    falloff: 1.0
+    pellet-count: 28
+    pellet-damage: 0.8
+    pellet-range: 1.75
+  INCENDIARY:
+    explosion-power: 0.6
+    damage: 3.0
+    radius: 1.5
+    block-break-radius: 1.0
+    falloff: 1.0
+    set-fire: true
+    burn-radius: 1.5
+    burn-duration: 200
+    burn-tick-damage: 0.5
+  ARMOR_PIERCING:
+    explosion-power: 0.5
+    damage: 6.0
+    radius: 1.25
+    block-break-radius: 0.75
+    falloff: 1.0
+  CLUSTER:
+    explosion-power: 0.35
+    damage: 2.5
+    radius: 1.25
+    block-break-radius: 0.75
+    falloff: 1.0
+    submunition-count: 6
+    scatter-radius: 2.5
+    stagger-ticks: 6
+    sub-explosion-power: 0.35
+    sub-damage: 2.5
+    sub-radius: 1.25
+    sub-block-break-radius: 0.75
+
+items:
+  WWSF_trench_cannon:
+    aim:
+      cone-blocks: 3.0
+  WWSF_short_cannon:
+    aim:
+      cone-blocks: 3.0
+  WWSF_maxim_machine_gun:
+    aim:
+      cone-blocks: 3.0
+  WWSF_field_cannon:
+    aim:
+      cone-blocks: 3.0
+# Geographic oil-field storage. Field shapes and amount scores are defined in
+# plugins/WWSF2/oil_fields.json. Oil is shared by an entire field, never generated per chunk.
+oil-fields:
+  balance-version: 2
+  # A score-100 field starts with 6,000 barrels at the default value.
+  barrels-per-score: 60
+  # Empty means every NORMAL-environment world. List world names to restrict the Earth map.
+  worlds: []
+
+# Each drill has one fixed extraction time. Mark II's half-coal value rounds up
+# because fuel is consumed in whole items.
+drills:
+  mark-1:
+    seconds: 60
+    coal-per-barrel: 10
+  mark-2:
+    seconds: 18
+    coal-per-barrel: 8
+  mark-3:
+    seconds: 9
+    coal-per-barrel: 5
